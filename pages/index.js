@@ -1,50 +1,32 @@
 import Head from 'next/head'
 
+
 export default function Home() {
+
   return (
     <div className="container">
       <Head>
-        <title>Create Next App</title>
+        <title>Aplicacion para gestion de formularios</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
         <h1 className="title">
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Visualizar formulario
         </h1>
 
-        <p className="description">
-        Welcome to <a href="/formulario/paso1">Next.js!</a>
-        </p>
 
         <div className="grid">
-          <a href="https://nextjs.org/docs" className="card">
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
+          <a href="/formulario/paso1" className="card">
+            <h3>Relevamientos</h3>
+            <p>ver relevamixento</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className="card">
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+          <a href="/admin/generador" className="card">
+            <h3>Administrar</h3>
+            <p>Crear y editar formularios de relevamiento</p>
           </a>
 
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className="card"
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className="card"
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
         </div>
       </main>
 
